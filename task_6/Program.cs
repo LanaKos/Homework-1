@@ -5,9 +5,8 @@
 7 -> нет
 */
 
-Console.WriteLine("Введите число и узнаете, является ли оно чётным.");
+Console.WriteLine("Введите число и узнаете, является ли оно чётным:");
 
-Console.WriteLine("Введите первое число:");
 int numberFirst = Convert.ToInt32(Console.ReadLine()); 
 
 if(numberFirst % 2 == 0)
